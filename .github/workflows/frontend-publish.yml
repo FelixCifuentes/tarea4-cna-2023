@@ -23,7 +23,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: FelixCifuentes/tarea4-cna-2023/chat-frontend
+          images: felixcifuentes/tarea4-cna-2023-chat-frontend
       
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
