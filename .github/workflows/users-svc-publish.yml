@@ -23,7 +23,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: felixcifuentes/tarea4-cna-2023-users-svc
+          images: felixcifuentes/tarea4-cna-2023/users-svc
       
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
